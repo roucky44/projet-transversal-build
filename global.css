@@ -1,0 +1,46 @@
+@import url("./src/style/var.css");
+@import url("./src/style/style.css");
+@import url("./src/style/responsive.css");
+
+@import url("./src/style/style.css");
+@import url("./src/style/var.css");
+
+@import "tailwindcss";
+
+/* input.css */
+
+/* ===== GLOBAL ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+/* ===== GLOBAL ===== */
+
+/* ===== FONT ===== */
+
+@font-face {
+  font-family: "Futura";
+  src: url("/projet-transversal/assets/font/Futura_Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ===== FONT ===== */
+
+/* ===== BODY ===== */
+
+.body-class {
+  background-color: var(--color-black);
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 3rem;
+}
+
+/* ===== BODY ===== */
